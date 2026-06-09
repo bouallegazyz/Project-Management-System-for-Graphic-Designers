@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BLOOM Design System - Color Palette
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@theme {
+  /* Primary Colors - Gradient */
+  --color-bloom-pink: #E8467A;
+  --color-bloom-pink-light: #EB6B77;
+  --color-bloom-orange: #F4A056;
+  --color-bloom-coral: #EF856D;
+
+  /* Neutral Colors */
+  --color-bloom-dark: #424045;
+  --color-bloom-gray: #9B9B9D;
+  --color-bloom-gray-light: #DDC9C6;
+  --color-bloom-white: #FEFEFE;
+  --color-bloom-bg: #FBF9F8;
+
+  /* Hover/Active states */
+  --color-bloom-pink-hover: #D63D6D;
+  --color-bloom-orange-hover: #E8944A;
+}
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #424045;
+  background-color: #FBF9F8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Bloom Gradient Utilities
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.bloom-gradient {
+  background: linear-gradient(135deg, #E8467A, #F4A056);
+}
+
+.bloom-gradient-soft {
+  background: linear-gradient(135deg, #EB6B77, #EF856D);
+}
+
+.bloom-gradient-text {
+  background: linear-gradient(135deg, #E8467A, #F4A056);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bloom-btn {
+  background: linear-gradient(135deg, #E8467A, #F4A056);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(232, 70, 122, 0.3);
+}
+
+.bloom-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(232, 70, 122, 0.4);
+}
+
+.bloom-btn:active {
+  transform: translateY(0);
+}
+
+/* Card styles */
+.bloom-card {
+  background: #FEFEFE;
+  border: 1px solid rgba(221, 201, 198, 0.3);
+  box-shadow: 0 2px 8px rgba(66, 64, 69, 0.06);
+  transition: all 0.3s ease;
+}
+
+.bloom-card:hover {
+  box-shadow: 0 8px 24px rgba(232, 70, 122, 0.12);
+  border-color: rgba(232, 70, 122, 0.2);
+}
+
+/* Input focus ring */
+.bloom-input:focus {
+  outline: none;
+  border-color: #E8467A;
+  box-shadow: 0 0 0 3px rgba(232, 70, 122, 0.15);
+}
+
+/* Scrollbar - Bloom themed */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FBF9F8;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #E8467A, #F4A056);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #D63D6D, #E8944A);
+}
+
+/* Selection color */
+::selection {
+  background: rgba(232, 70, 122, 0.2);
+  color: #424045;
+}

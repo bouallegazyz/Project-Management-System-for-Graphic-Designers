@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@headlessui/react": "^2.2.9",
+    "@reduxjs/toolkit": "^2.11.2",
+    "clsx": "^2.1.1",
+    "moment": "^2.30.1",
+    "nodemailer": "^8.0.4",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.13.0",
+    "recharts": "^3.7.0",
+    "sonner": "^2.0.7"
+  }
+}
