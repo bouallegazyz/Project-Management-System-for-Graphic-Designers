@@ -68,7 +68,7 @@ The team used to run its workflow across WhatsApp, Messenger, email and Excel/Go
 
 The application follows the **MERN** stack with a REST API, an MVC backend and a real-time layer.
 
-![Architecture](docs/images/architecture.png)
+![Architecture](architecture.png)
 
 Request flow:
 
