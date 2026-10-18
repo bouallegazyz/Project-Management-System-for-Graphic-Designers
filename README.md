@@ -54,15 +54,15 @@ The team used to run its workflow across WhatsApp, Messenger, email and Excel/Go
 
 | Task board (Kanban) | Client portal — brief submission |
 |:---:|:---:|
-| ![Tasks](screenshot-tasks-board.png) | ![Client brief](docs/images/screenshot-client-brief.png) |
+| ![Tasks](screenshot-tasks-board.png) | ![Client brief](screenshot-client-brief.png) |
 
 | Review of submitted 3D files | Approve / reject with comment |
 |:---:|:---:|
-| ![Files](docs/images/screenshot-files-review.png) | ![Validation](docs/images/screenshot-validation.png) |
+| ![Files](screenshot-files-review.png) | ![Validation](screenshot-validation.png) |
 
 | Validated projects gallery (client) | Real-time internal chat |
 |:---:|:---:|
-| ![Gallery](docs/images/screenshot-client-gallery.png) | ![Chat](docs/images/screenshot-chat.png) |
+| ![Gallery](screenshot-client-gallery.png) | ![Chat](screenshot-chat.png) |
 
 ## 🏗️ Architecture
 
