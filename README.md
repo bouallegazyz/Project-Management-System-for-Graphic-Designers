@@ -54,7 +54,7 @@ The team used to run its workflow across WhatsApp, Messenger, email and Excel/Go
 
 | Task board (Kanban) | Client portal — brief submission |
 |:---:|:---:|
-| ![Tasks](docs/images/screenshot-tasks-board.png) | ![Client brief](docs/images/screenshot-client-brief.png) |
+| ![Tasks](screenshot-tasks-board.png) | ![Client brief](docs/images/screenshot-client-brief.png) |
 
 | Review of submitted 3D files | Approve / reject with comment |
 |:---:|:---:|
