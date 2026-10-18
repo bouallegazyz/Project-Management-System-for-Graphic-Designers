@@ -19,7 +19,7 @@
 
 </div>
 
-![Login page](docs/images/screenshot-login.png)
+![Login page](screenshot-login.png)
 
 ---
 
